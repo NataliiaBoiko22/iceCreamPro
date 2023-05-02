@@ -1,0 +1,32 @@
+{
+  "name": "icecreame",
+  "version": "1.0.0",
+  "description": "one page site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /ice-cream-goit/",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,less,json,md}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataliiaBoiko22/iceCreame.git"
+  },
+  "author": "Nataliia Boiko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataliiaBoiko22/iceCreame/issues"
+  },
+  "homepage": "https://github.com/NataliiaBoiko22/iceCreame#readme",
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "modern-normalize": "^1.1.0",
+    "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.4",
+    "prettier": "^2.8.8"
+  },
+  "devDependencies": {
+    "parcel-reporter-clean-dist": "^1.0.4"
+  }
+}
